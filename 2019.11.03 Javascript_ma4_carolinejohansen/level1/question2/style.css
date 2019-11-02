@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box
+}
+
+#index {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 1px 2px;
+  background-color: #123456;
+  margin: 0 0 4px 0;
+  color: white;
+}
+
+h2, p, h3 {
+text-align: center;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 3px;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}

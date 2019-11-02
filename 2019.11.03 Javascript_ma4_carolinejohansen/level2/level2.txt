@@ -1,0 +1,39 @@
+1.  What is the DOM?
+The Document Object Model - defining the standard for accessing HTML documents.
+Javascript can manipulate the DOM by adding, deleting or updating HTML elements inside the DOM.
+
+List three methods to manipulate the DOM.
+1.  document.getElementById(id) = this method tells Javascript to look for and fetch an element, with a specified ID attached to it, in the DOM.
+2.  document.getElementByTagName(name) = this method tells Javascript to look for and fetch an element, with a specified tag name, in the DOM
+3.  document.getElementsByClassName(name) = this method tells Javascript to look for and fetch an element, with a specified class name, in the DOM
+These methods is for finding HTML elements. Additional methods exists to change, add, delete elements in HTML and adding event handlers.
+
+
+2.  What is an asynchronous call?
+
+An async call is a function which allows code to "load" in the background until it is available for execution, in paralell to other code in the program being executed.
+If you need the "loading" code to be executed before other code, you need to tell the program to do so, else this unblocking way of processing data will continue: Loaded first - executed first.
+
+
+3.  Briefly explain what the sources tab in Chromes Developers Tools does.
+
+It lets you view files, edit css and javascript, create and save snippets of javascript which you can run on any page, debug javascript, lets you set up a workspace so changes you make in DevTools, gets saved to the code on your file system.
+
+
+4.  What is a JavaScript promise?
+
+It is an object that sometime in the future will produce a value of either resolved or the reason why it is not resolved. The promise object allows you to write asynchronous code in a more synchronous fashion.
+
+
+5.  What is an API?
+
+API stands for Application Program Interface. A set of protocols, tools and set of routines specifing how software components should interact.
+
+
+6.  What is a JavaScript Event?
+
+Events is how Javascript interact with HTML. It is through events that the user or browser can manipulate a page. E.g. MouseEvent: e.g. click, mouseover, TouchEvents: e.g. touchstart, Form events:e.g. focus, blur.
+
+7.  What is event bubbling?
+
+It relates to the order in which event handlers are called when one element is nested inside a second and they both are registered for the same event.
